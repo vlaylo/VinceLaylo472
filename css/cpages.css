@@ -211,3 +211,6 @@ h5.play-open  {
   transition: all 200ms;
 }
 
+.card-text {
+  height: 50px !important;
+}
