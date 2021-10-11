@@ -11,14 +11,9 @@ body {
 
 
 a {
-  color: #FF4E00;
   text-decoration: none;
-  line-height: inherit;
 }   
-  
-  a:hover, a:focus {
-    color: #1C9FC7; 
-} 
+
 
 .btn-link{
   color: #FF4E00;
@@ -54,6 +49,7 @@ p {
 a {
   color: #2fb0e3  !important;
 }
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-weight: 600 !important;
 }
@@ -122,17 +118,19 @@ footer {
 h1.mont-lora, h2.mont-lora, h3.mont-lora, h4.mont-lora, h5.mont-lora {
   font-family: "Montserrat", sans-serif !important ;
 }
-p.mont-lora {
+p.mont-lora, a.mont-lora {
 font-family: "Lora", sans-serif !important;
 font-weight: 400;
 }
+
+
 
 
 h1.raleway, h2.raleway, h3.raleway, h4.raleway, h5.raleway {
   font-family: "Raleway", sans-serif !important ;
   font-weight: 700 !important;
 }
-p.raleway {
+p.raleway, a.raleway {
   font-family: "Raleway", sans-serif !important;
   font-weight: 500;
   }
@@ -146,7 +144,7 @@ h1.play-open, h2.play-open, h3.play-open, h4.play-open, h5.play-open {
   font-weight: 700 !important;
 }
 
-p.play-open {
+p.play-open, a.play-open {
   font-family: "Open Sans", sans-serif !important ;
 }
 
