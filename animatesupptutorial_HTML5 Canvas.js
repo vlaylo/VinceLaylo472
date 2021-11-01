@@ -70,21 +70,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_8 = function() {
+(lib.CachedBmp_12 = function() {
 	this.initialize(ss["animatesupptutorial_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_7 = function() {
+(lib.CachedBmp_11 = function() {
 	this.initialize(ss["animatesupptutorial_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_10 = function() {
 	this.initialize(ss["animatesupptutorial_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
@@ -375,16 +375,16 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(29).call(this.frame_29).wait(21).call(this.frame_50).wait(104).call(this.frame_154).wait(1));
 
 	// Labels
-	this.instance = new lib.CachedBmp_8();
-	this.instance.setTransform(962.75,39.7,0.5,0.5);
+	this.instance = new lib.CachedBmp_12();
+	this.instance.setTransform(967,51.2,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_7();
-	this.instance_1.setTransform(588.55,39.7,0.5,0.5);
+	this.instance_1 = new lib.CachedBmp_11();
+	this.instance_1.setTransform(592.8,51.2,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_6();
-	this.instance_2.setTransform(182.6,39.7,0.5,0.5);
+	this.instance_2 = new lib.CachedBmp_10();
+	this.instance_2.setTransform(186.85,51.2,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]},154).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(155));
 
 	// ButtonThree
 	this.StartEase = new lib.Button();
